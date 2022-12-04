@@ -14,12 +14,14 @@ for (i = 0; i < array.length; i++) {
 }
 return accumulator;
 
-return (accumulator);
-	
 };
 
-const multiply = function() {
-
+const multiply = function(array) {
+  let accumulator = array[0];
+  for (i = 1; i < array.length; i++) {
+  accumulator = (accumulator * array[i]);
+}
+return accumulator;
 };
 
 const power = function() {
