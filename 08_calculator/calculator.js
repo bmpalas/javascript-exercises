@@ -24,12 +24,17 @@ const multiply = function(array) {
 return accumulator;
 };
 
-const power = function() {
-	
+const power = function(num1, num2) {
+  return (num1 ** num2);	
 };
+//factorial is number of permutations of arranging a set of numbers
+const factorial = function(input) {
+  if (input == 0) return 1;
+  if (input == 1) return 1;
+  for (i = input; i > 0; i--) {
+  
+}
 
-const factorial = function() {
-	
 };
 
 // Do not edit below this line
