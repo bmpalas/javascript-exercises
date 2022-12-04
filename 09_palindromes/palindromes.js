@@ -1,5 +1,5 @@
 const palindromes = function (input) {
-const punc = /[\u2000-\u206F\u2E00-\u2E7F\\'!"#$%&()*+,\-.\/:;<=>?@\[\]^_`{|}~]/g; //regex of all punctuation
+const punc = /[\u2000-\u206F\u2E00-\u2E7F\\'!"#$%&()*+,\-.\/:;<=>?@\[\]^_`{|}~" "]/g; //regex of all punctuation and spaces
 const noPunc = input.replace(punc, ''); //strip punctuation
 const noCap = noPunc.toLowerCase();
 const stripStr = noCap; // creat stripped string
