@@ -1,4 +1,5 @@
 const fibonacci = function(num) {
+    if (num < 0) return 'OOPS';
     arrFib = [0,1];
     for (let i = 0; i <= num; i++) {
         let index1 = -2
